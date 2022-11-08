@@ -19,6 +19,10 @@ connectDB();
 
 const app = express();
 
+// Body Parser
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+
 // Logging
 if (process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'));
@@ -46,11 +50,12 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Static folder
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 
 // Routes
-app.use('/', require('./routes/index'))
-app.use('/auth', require('./routes/auth'))
+app.use('/', require('./routes/index'));
+app.use('/auth', require('./routes/auth'));
+app.use('/stories', require('./routes/stories'));
 
-app.listen(PORT, console.log(`Server connected in ${process.env.NODE_ENV} mode on port ${process.env.PORT}`))
+app.listen(PORT, console.log(`Server connected in ${process.env.NODE_ENV} mode on port ${process.env.PORT}`));
