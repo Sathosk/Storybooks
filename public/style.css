@@ -11,3 +11,7 @@ p {
 .sidenav {
     padding-top: 12px;
 }
+
+.fa-small {
+    font-size: 16px !important;
+}
