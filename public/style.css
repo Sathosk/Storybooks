@@ -20,3 +20,11 @@ p {
     float: left;
     margin-right: 10px;
 }
+
+.img-small {
+    width: 180px;
+}
+
+.card {
+    min-height: 352px;
+}
