@@ -1,6 +1,6 @@
 <h3>Add Story</h3>
 <div class="row">
-    <form action="/stories" method="POST" class="col s12">
+    <form action="/stories" method="POST" onsubmit="myButton.disabled = true; return true;" class="col s12">
         <div class="row">
             <div class="input-field">
                 <input type="text" id="title" name="title">
@@ -26,7 +26,7 @@
         </div>
 
         <div class="row">
-            <input type="submit" value="Save" class="btn">
+            <input type="submit" name="myButton" value="Save" class="btn">
             <a href="/dashboard" class="btn orange">Cancel</a>
         </div>
     </form>
