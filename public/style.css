@@ -28,3 +28,7 @@ p {
 .card {
     min-height: 352px;
 }
+
+.section {
+    padding-top: 3em;
+}
