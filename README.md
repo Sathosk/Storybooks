@@ -6,11 +6,4 @@ Simple application with Node, Express, MongoDB, GoogleOAuth. This was made as pr
 You can check it out, sign up with your google account and share your stories!<br>
 https://storybooks-api.cyclic.app
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Aplicativo para criar histórias publicas e privadas
-
-Aplicação simples utilizando Node, Express, MongoDB, GoogleOAuth. Essa aplicação foi feita para exercitar prática com Google OAuth, MongoDB (Mangoose), Materialize, estrutura de pastas, roteamento, handlebars e outras bibliotecas de utilidade/middlewares.
-
-Você pode verificar o site, registre com sua conta de google e compartilhe suas histórias!<br>
-https://storybooks-api.cyclic.app
+![Screenshot 2022-12-21 194308](https://user-images.githubusercontent.com/63148481/209016844-4a990fd0-b240-4585-ad5c-fd9f92365baa.jpg)
