@@ -3,8 +3,9 @@
     <form action="/stories" method="POST" onsubmit="myButton.disabled = true; return true;" class="col s12">
         <div class="row">
             <div class="input-field">
-                <input type="text" id="title" name="title">
+                <input type="text" id="title" name="title" required>
                 <label for="title">Title</label>
+                
             </div>
         </div>
 
@@ -21,7 +22,7 @@
         <div class="row">
             <div class="input-field">
                 <h5>Tell Us Your Story:</h5>
-                <textarea id="body" name="body"></textarea>
+                <textarea id="body" name="body"></textarea required>
             </div>
         </div>
 
